@@ -1,0 +1,28 @@
+variables:
+  - 'F'
+  - '-'
+  - '+'
+  - '['
+  - ']'
+rules:
+  -
+    input: 'F'
+    output: 'FF+[+F-F-F]-[-F+F+F]'
+actions:
+  'F':
+    - 'forward'
+  '-':
+    - 'turn_left'
+  '+':
+    - 'turn_right'
+  '[':
+    - 'push'
+  ']':
+    - 'pop'
+reverse_actions:
+  'F':
+    - 'backward'
+  '-':
+    - 'turn_right'
+  '+':
+    - 'turn_left'

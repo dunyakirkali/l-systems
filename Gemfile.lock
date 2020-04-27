@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.9.14)
+    mittsu (0.1.4)
+      ffi (~> 1.9)
+      opengl-bindings (~> 1.5)
+      rmagick (~> 2.15)
+    opengl-bindings (1.6.1)
+    rmagick (2.16.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mittsu
+
+RUBY VERSION
+   ruby 2.3.1p112
+
+BUNDLED WITH
+   1.13.2
